@@ -1,0 +1,531 @@
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 1080px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1180px) {
+
+ /*  HEADER: MENU; ------------------------------------ */
+ 
+
+ .header .menu {
+     width: 70%;
+ }
+
+ .header .menu > .item > a {
+    font-size: 22px;
+ }
+
+ 
+
+
+}/* 940px */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 768px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:1000px) {
+
+ /*  HEADER: MENU; ------------------------------------ */
+ 
+ 
+.header {
+    height: auto;
+ }
+
+ .header .menu {
+     width: 100%;
+     display: none;
+ }
+
+ .header .logo {
+ 	float: none;
+ 	margin: 0 auto
+ }
+
+
+
+ .header .menuMovil {
+     width: 100%;	 
+     height: auto;
+     display: block;
+     text-align: center;
+	font-family: "bebas";
+	font-size: 20px;
+	float:right;
+	color: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;	 
+	background-color: #17355E;
+ }
+
+ .header .menuMovil a {
+ 	color: #FFF;	 
+ }
+ 
+
+
+/*------------------------------------*\
+   SOBRE MI 
+\*------------------------------------*/
+
+ .ContenedorSobremi > .bloqueA{
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+}
+
+
+.ContenedorSobremi > .bloqueB{
+    width: 55%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 40px;
+
+}
+
+
+/*------------------------------------*\
+   MI COMPROMISO
+\*------------------------------------*/
+
+.seccionMiCompromiso > .bloqueA{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+}
+
+.seccionMiCompromiso > .bloqueB{
+     width: 50%;
+    float: none;
+    margin: 0 auto;
+}
+
+.seccionMiCompromiso > .bloqueC{
+     width: 50%;
+    float: none;
+    margin: 0 auto;
+}
+
+
+
+
+}/* 940px */
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 940px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:940px) {
+
+ /*  HEADER: MENU; ------------------------------------ */
+ 
+
+ .header .menu {
+     top: 50%;
+ }
+
+ .header .menu > .item > a {
+    font-size: 20px;
+ }
+
+
+
+/*------------------------------------*\
+   SECCION HOME
+\*------------------------------------*/
+
+.ContendorBottom > .BloqueA > .logoPais {
+    width: 110px;
+}
+
+
+.redesContenedor > .BloqueA img {
+    width: 90%;
+}
+
+.redesContenedor > .BloqueB img {
+    width: 90%;
+}
+
+.redesContenedor > .BloqueC img {
+    width: 90%;
+}
+
+
+.textoCentral {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+.seccionCentral > .btn_haz_propuesta {
+    width: 420;
+}
+
+}/* 940px */
+
+
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 768px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:768px) {
+
+
+
+
+
+.formulario_a {
+    float: none;
+    margin: 0 auto;
+    width: 300px
+}
+
+
+.formulario_b {
+    float: none;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+.comentarios textarea{
+	width:  300px;
+}
+
+.seccionCentral > .btn_haz_propuesta{ 
+	width: 320px;
+ }
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+   PROPUESTAS CATEGORIAS
+\*------------------------------------*/
+
+
+.ContenedorPropuestasCategorias > .BloqueA{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
+
+.ContenedorPropuestasCategorias > .BloqueB{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+
+}
+
+
+.ContenedorPropuestasCategorias > .BloqueC{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
+
+.tituloRespuestas h1{
+    font-size: 18px;
+}
+
+.propuestasRecibidas > .descripcion a {
+    font-size: 13px;
+}
+
+.RespuestaTema > .contenedor > .nombre {
+    font-size: 18px;
+}
+
+
+.RespuestaTema > .contenedor > .respuesta {
+    font-size: 12px;
+}
+
+
+
+
+/*------------------------------------*\
+   CONTACTO
+\*------------------------------------*/
+
+
+.seccionMiContacto > .bloqueA{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+}
+
+.seccionMiContacto > .bloqueB{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+
+}
+
+.seccionMiContacto > .bloqueC{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+}/* 410px */
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 680px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:690px) {
+
+/*------------------------------------*\
+   MI COMPROMISO
+\*------------------------------------*/
+
+.seccionMiCompromiso > .bloqueA{
+    width: 70%;
+  
+}
+
+.seccionMiCompromiso > .bloqueB{
+     width: 70%;
+ 
+}
+
+.seccionMiCompromiso > .bloqueC{
+     width: 70%;
+    
+}
+
+
+.footer_center{
+    width: 345px;
+}
+
+
+.footer_center > .BloqueA {
+    width: 120px;
+}
+
+.footer_center > .BloqueB {
+    width: 185px;
+}
+
+
+.redesContenedor > .BloqueA > a > .facebook{
+    width: 56px;
+    height: auto; 
+    margin: 0 auto; 
+} 
+
+.redesContenedor > .BloqueB > a > .twitter{
+    width: 56px;
+    height: auto; 
+    margin: 0 auto; 
+} 
+
+
+.redesContenedor > .BloqueC > a > .instagram{
+    width: 56px;
+    height: auto; 
+    margin: 0 auto; 
+} 
+
+
+
+}/* 680px */
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 768px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:568px) {
+
+	.single-seccion > .titulo{
+		font-size: 30px;
+		line-height: 26px;
+	}
+
+.single-seccion > .descripcion {
+    font-size: 18px;
+
+}
+
+
+#pronext{
+	 display: none;
+}
+
+#proprev{
+	display: none;
+
+}
+
+
+.textoCentral {
+    font-size: 15px;
+    line-height: 16px;
+}
+
+.seccionCentral > .btn_haz_propuesta {
+    width: 200px;
+}
+
+
+
+/*------------------------------------*\
+   SOBRE MI 
+\*------------------------------------*/
+
+ .ContenedorSobremi > .bloqueA{
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+.ContenedorSobremi > .bloqueB{
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+.single-seccion {
+    width: 95%;
+ 
+}
+
+
+
+
+
+/*------------------------------------*\
+   PROPUESTAS CATEGORIAS
+\*------------------------------------*/
+
+
+.ContenedorPropuestasCategorias > .BloqueA{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+}
+
+
+.ContenedorPropuestasCategorias > .BloqueB{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+
+
+}
+
+
+.ContenedorPropuestasCategorias > .BloqueC{
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px; 
+
+}
+
+
+
+}/* 568px */
+
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 320px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:370px) {
+
+/*------------------------------------*\
+   MI COMPROMISO
+\*------------------------------------*/
+
+.seccionMiCompromiso > .bloqueA{
+    width: 90%;
+  
+}
+
+.seccionMiCompromiso > .bloqueB{
+     width: 90%;
+ 
+}
+
+.seccionMiCompromiso > .bloqueC{
+     width: 90%;
+    
+}
+
+
+
+}
+
+
+
+
+
+
+/* --------------------------------------------------------
+/* ---- Responsive: 320px
+-------------------------------------------------------- */
+
+@media only screen and (max-width:320px) {
+
+ /*  HEADER: MENU; ------------------------------------ */
+ 
+  
+  .textoCentral {
+    width: 80%;
+    height: auto;
+    font-size: 15px;
+    
+}
+
+
+ 
+
+
+}/* 320px */

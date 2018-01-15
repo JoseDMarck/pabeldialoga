@@ -1,0 +1,295 @@
+/*------------------------------------*\
+    FUENTES
+\*------------------------------------*/
+
+
+
+body{
+	background-color: #FFF;
+}
+
+*{ margin: 0; 
+   padding: 0; 
+}
+/*------------------------------------*\
+    BLOQUE PRINCIPAL
+\*------------------------------------*/
+
+
+.BloquePrincipal{
+	max-width: 1024px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 999;
+}
+
+
+.imagenCentral{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 100%;
+    height:auto;
+    padding-top: 0px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.imagenCentral img{
+	width: 100%;
+	height: auto;
+}
+ 
+
+.logo_header{
+	width: 300px;
+	height: auto;
+	position: relative;
+	z-index: 999;
+}
+
+.logo_header img{ 
+	width: 100%;
+	height: auto;
+}
+
+
+.imagenGif{
+	width: 445px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    left: -70px;
+    top: -76px;
+}
+
+.imagenGif img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.logoBottom {
+	width: 240px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+.logoBottom img{
+	width: 100%;
+	height: auto;
+}
+ 
+/*------------------------------------*\
+   REDES
+\*------------------------------------*/
+#redes{
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#redes > #red1{
+	width: 16.6%;
+	height: auto;
+	float: left;
+}
+
+#redes > #red2{
+	width: 16.6%;
+	height: auto;
+	 margin: 0 auto
+}
+
+#redes > #red3{
+	width: 16.6%;
+	height: auto;
+	float: right;
+}
+
+#redes > #red1 img{
+	width: 100%;
+	height: auto;
+}
+
+#redes > #red2 img{
+	width: 100%;
+	height: auto;
+}
+
+#redes > #red3 img{
+	width: 100%;
+	height: auto;
+}
+
+
+.loading_horizontal {
+	display: block;
+}
+
+.loading_vertical{
+	display: none;
+}
+
+
+/*------------------------------------*\
+   FOOTER
+\*------------------------------------*/
+
+
+#footer{
+	width: 100%;
+    height: 46px;
+    background-color: #F18100;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+/*------------------------------------*\
+   CSS
+\*------------------------------------*/
+
+
+@media only screen and (max-width:1024px) {
+
+
+#logo{
+	width: 20%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+
+#contador{
+width: 100%;	
+font-size: 30px;
+margin: 0 auto;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width:768px) {
+
+
+#logo{
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+
+#contador{
+width: 80%;	
+font-size: 30px;
+}
+
+
+.imagenCentral{
+	width: 85%;
+}
+
+.loading_horizontal {
+	display: none;
+}
+
+.loading_vertical{
+	display: block;
+}
+
+
+}
+
+/*------------------------------------*\
+   CSS
+\*------------------------------------*/
+
+@media only screen and (max-width:600px) {
+
+
+#logo{
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+
+#contador{
+width: 50%;	
+font-size: 20px;
+}
+
+}
+
+/*------------------------------------*\
+   CSS
+\*------------------------------------*/
+
+@media only screen and (max-width:568px) {
+
+
+#logo{
+	width: 23%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+
+#contador{
+width: 80%;	
+font-size: 20px;
+
+}
+
+
+ 
+
+}
+
+
+/*------------------------------------*\
+   CSS
+\*------------------------------------*/
+
+@media only screen and (max-width:320px) {
+
+
+#logo{
+	width: 20%;
+	height: auto;
+	float: right;
+	margin-right: 10%;
+	margin-top: 3%;
+}
+
+#contador{
+width: 80%;	
+font-size: 20px;
+}
+ 
+
+
+}
+
